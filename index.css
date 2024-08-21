@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo" , sans-serif;
+}
+#jp{
+    height: 40px;
+    background-color: lightgrey;
+    }
+    #main{display: grid;
+        grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1.3fr;
+        grid-template-rows: 80px 80px 431px 263px;
+    }
+    #main>div{border: solid 1px;
+    }
+    #logo { grid-column: 2;
+        }
+    #nav{ grid-column: 3/6;
+border: 1px;
+display: grid;
+grid-row: 1;
+grid-column: 3;
+grid-template-columns: 1fr 2fr 3fr 4fr;
+}
+.title{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+    
+ }  
+    #menu{ grid-column: 2;
+    grid-row: 2/4;
+   background-image: url(hambuger.jpg);          
+}
+    #busca{
+        grid-row: 2 ;
+        grid-column: 3/6;
+    }
+    #banner{
+        grid-column: 3/6;
+        grid-row: 3;
+        background-image: url(image\(1\).png.webp);  
+        padding-top: 230px;
+        font-size: 30px;
+        padding-bottom: 235px;
+       
+    }
+    #prod01{
+        grid-row: 4;
+        grid-column: 2;
+        background-image: url(download\ \(4\).webp);
+        padding-top: 230px;
+    }
+    #prod02{
+        grid-row: 4;
+        grid-column: 3;
+        background-image: url(download\ \(5\).webp);
+        padding-top: 230px;
+    }
+    #prod03{
+        grid-row: 4;
+        grid-column: 4;
+        background-image: url(download\ \(3\).webp);
+        padding-top: 230px;
+    }
+    #prod04{
+        grid-row: 4;
+        grid-column: 5;
+        background-image: url(download\ \(2\).webp);
+        padding-top: 230px;
+    }
+    header {
+        display: block;
+        unicode-bidi: isolate;
+    }
+   #row{
+    grid-row: 2 ;
+    grid-column: 3/6;
+   }
+  
